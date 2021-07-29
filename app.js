@@ -1,42 +1,24 @@
-// $(document).ready(function () {
-//   $('body').html('<h1>Hello jQuery!!</h1>');
-// });
 
 // $(function(){
-//  $('.box1').css({
-//   'background-color':'#0000FF',
-//   'height':'100px'
-//  });
-// });
+//   $('.bg1').on('click', function(){
+//     $('.bg1').slideUp();
+//   });
 
-// $(function(){
-//   $('.box1').show();
-//   $('.box1').css({'background-color':'#0000FF'});
-// });
+//   $('.bg2').on('click', function(){
+//     $('.bg2').slideUp();
+//   });
 
+//   $('.bg3').on('click', function(){
+//     $('.bg3').slideUp();
+//   });
 
-// $(function(){
-//   $('.box1').hide();
-  
-// });
-
-
-
-// $(function(){
-//  $('.box1').slideDown(function() {
-//    $('.box1').css({
-//   'background-color':'#0000FF',
-//   'height':'100px',
-//    'width':'200px'
-//   }).slideUp(5000);
-//  });
+//   $('.bg4').on('click', function(){
+//     $('.bg4').slideUp();
+//   });
 // });
 
 $(function(){
- $('.box1').on('click',function(){
-  $('.box1').addClass('box1-ext');
- });
- $('.box1').mouseout(function(){
-  $('.box1').removeClass('box1-ext');
- });
+  $('.box1').on('click', function(){
+    $(this).slideUp();
+  });
 });
